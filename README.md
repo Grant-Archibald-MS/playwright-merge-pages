@@ -8,7 +8,7 @@ Some notes and assumptions
 
 1. As Microsoft Edge browser is used pages behind a security auth prompt can be navigated to and saved.
 
-2. The app assumes tha the pages to be saved use a base URL set in App.config
+2. The app assumes that the pages to be saved use a base URL set in App.config
 
 3. Uses interactive mode for any login requirements
 
