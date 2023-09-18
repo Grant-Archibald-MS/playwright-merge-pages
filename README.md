@@ -16,7 +16,7 @@ Some notes and assumptions
 
 5. Visits the home page first to allow for login. Following pages will used login browser credentials
 
-7. .Net 7.0 SDK of greater is installed 
+6. .Net 7.0 SDK of greater is installed
 
 ## Getting Started
 
