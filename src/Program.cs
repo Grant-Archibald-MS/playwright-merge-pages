@@ -16,6 +16,9 @@ var coverPage = ConfigurationManager.AppSettings["Cover"];
 
 var page = await browser.NewPageAsync();
 await page.GotoAsync(string.Format(baseUrl,homePage));
+
+// await page.PauseAsync();
+
 var pdf = await page.PdfAsync(new PagePdfOptions() { DisplayHeaderFooter = false });
 System.IO.File.WriteAllBytes( "00-" + homePage + ".pdf", pdf);
 
